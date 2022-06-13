@@ -1,0 +1,42 @@
+@media screen and (min-width:640px)
+{
+#box{
+    padding: 10%;
+}
+#muscle-map{position:relative}
+#background{width:100%}
+#muscle-map>img:not(#background)
+{display:block;position:absolute;transition:opacity .2s;opacity:0}
+#muscle-map>img:not(#background):hover{opacity:1}
+#muscle-map>#f-traps{top:15.6%;left:24%;width:9.5%}
+#muscle-map>#f-shoulder-l{top:18.5%;left:17.84%;width:6.9%}
+#muscle-map>#f-shoulder-r{top:19.1%;left:33.3%;width:5%}
+#muscle-map>#f-chest{top:22%;left:22.85%;width:11.8%}
+#muscle-map>#f-biceps-l{top:24.94%;left:18.15%;width:4.3%}
+#muscle-map>#f-biceps-r{top:26%;left:34.95%;width:4.55%}
+#muscle-map>#f-forarm-l{top:33.8%;left:14.15%;width:6.62%}
+#muscle-map>#f-forarm-r{top:34.5%;left:36.6%;width:7%}
+#muscle-map>#f-oblique-l{top:29.4%;left:22.85%;width:2.82%}
+#muscle-map>#f-oblique-r{top:29.4%;left:31.85%;width:3.05%}
+#muscle-map>#f-abs{top:29.62%;left:25.7%;width:6.18%}
+#muscle-map>#f-patt-l{top:44.3%;left:21.7%;width:5.65%}
+#muscle-map>#f-patt-r{top:43.3%;left:30.3%;width:6.1%}
+#muscle-map>#f-khalli-l{top:69.75%;left:20.9%;width:4.5%}
+#muscle-map>#f-khalli-r{top:68.65%;left:33.25%;width:4.49%}
+#muscle-map>#f-triceps-l{top:24.83%;left:60.2%;width:4.58%}
+#muscle-map>#f-triceps-r{top:24.83%;left:77.1%;width:4.58%}
+#muscle-map>#b-traps{top:15.65%;left:68.75%;width:9.6%}
+#muscle-map>#b-shoulder-l{top:17.6%;left:62.75%;width:5.5%}
+#muscle-map>#b-shoulder-r{top:18.4%;left:77.4%;width:6.85%}
+#muscle-map>#b-back-l{top:26.3%;left:66.5%;width:6.4%}
+#muscle-map>#b-back-r{top:26.1%;left:74.1%;width:5.7%} 
+#muscle-map>#b-backupper{top:18.4%;left:69.1%;width:8.68%}
+#muscle-map>#b-backlower{top:31.8%;left:69.65%;width:7.65%}
+#muscle-map>#b-tricep-l{top:23.8%;left:61.9%;width:4.88%}
+#muscle-map>#b-tricep-r{top:24%;left:79.74%;width:5.1%}
+#muscle-map>#b-forarm-l{top:33.25%;left:58.37%;width:6.56%}
+#muscle-map>#b-forarm-r{top:33.65%;left:81.9%;width:7%}
+#muscle-map>#b-patt-r{top:51.65%;left:73.65%;width:7.3%}
+#muscle-map>#b-patt-l{top:53.75%;left:65.8%;width:7.1%}
+#muscle-map>#b-khalli-l{top:68.09%;left:63.95%;width:5.48%}
+#muscle-map>#b-khalli-r{top:67.5%;left:76.3%;width:5.45%}}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  nav .logo{
+    color: #fdf4c7;
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 85px;
+    text-shadow: 2px 2px 4px grey;
+  }
+  nav{
+    height: 65px;
+    background: #e20b36;
+    box-shadow: 0 3px 15px #03030386;
+    position:absolute;
+    width: 100%
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    color: #ffffff;
+    display: block;
+    padding: 0 15px;
+    line-height: 60px;
+    font-size: 22px;
+    text-shadow:2px 2px 4px #00000067; 
+    background: #e20b36;
+    transition: .5s;
+  }
+  nav ul li a:hover,nav ul li a.active{
+    color: #5A9FFF ;
+  }
+  
+  nav ul ul{
+    position:absolute;
+    top: 85px;
+    border-top: 3px solid #23dbdb;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  nav ul li:hover > ul{
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: .1s linear;
+  }
+  
+  nav ul ul li{
+    width:auto;
+    display: list-item;
+    position: relative;
+    border: 1px solid #042331;
+    border-top: 15px;
+  }
+  
+  nav ul ul li a{
+    line-height: 50px;
+  }
+  nav ul ul ul{
+    border-top: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  
+  nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 150px;
+  }
+  nav ul ul li a i{
+    margin-left: 45px;
+  } 
+
+  div .row , .foot-row {
+    overflow: hidden;
+    display: flex;
+    padding: 0%;
+    margin: 0%;}
+  #details{
+    height: 200px;
+    background: #e20b36;
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .foot-col{
+    margin-left: 10%;
+    margin-top: 0%;
+    padding-top: 0%;
+    height: auto;
+  }
+  .container{
+    background: rgb(255,37,82);
+    background: radial-gradient(circle, rgba(255,37,82,1) 0%, rgba(237,38,38,1) 77%, rgba(193,15,52,1) 100%);
+    clip-path: circle(63.9% at 50% 59%);
+    margin: 1%;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+
+  .foot-col ul li a{
+    color: #fdf4c7;
+    font-size: 30px;
+  }
+  h2{
+    font-size: 30px;
+  }
